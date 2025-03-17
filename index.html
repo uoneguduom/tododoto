@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <m eta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tododoto</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <script src="main.js" defer></script>
 		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
 </head> 
 <body>
-    <div class="header">
-        <h1 class="title">Tododoto</h1>
-				<!-- <button class="button" id="setting_gear"> 0 </button> -->
-    </div>
+	<header>
+        <h1 class="body-box title header-element">Tododoto.</h1>
+		<button class="button body-box" id="settings">o</button>
+	</header>
 
-    <div class="main">
-			<div class="actions">
-				<button class="button long" id="filter">Filter</button>
-				<button class="button long" id="add_task">New Task</button>
-			</div>
+    <main>
+		<div class="tools-bar">
+			<button class="button body-box" id="filter">Filter</button>
+			<button class="button body-box" id="add_task">New Task</button>
+		</div>
 			<div class="task_list">
 				<p>empty</p>
 				<!-- js generated tasks -->
+				 <!-- <div class="task">
+						<div class="task_header">
+							<input type="text" class="title">
+							
+						</div>
+				 </div> -->
 			</div>
-    </div>
+    </main>
 </body>
 </html> 

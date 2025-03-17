@@ -1,0 +1,75 @@
+/* Reset global */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+/* Enlever la mise en forme par défaut des liens */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Enlever les styles par défaut pour les listes */
+ul, ol {
+  list-style: none;
+}
+
+/* Supprimer la mise en forme par défaut des images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Enlever les bordures de tous les éléments de formulaire */
+input,
+button,
+textarea,
+select {
+  border: none;
+  outline: none;
+  background: transparent;
+  font: inherit;
+  color: inherit;
+}
+
+/* Uniformiser la hauteur des lignes de texte */
+body {
+  line-height: 1.5;
+  font-size: 100%;
+}
+
+/* S'assurer que les éléments de formulaire n'ont pas de marges ou de padding par défaut */
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Spécial pour les tables : enlever les espaces et bordures par défaut */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Normaliser les en-têtes de tableaux */
+th {
+  text-align: left;
+}
+
+/* Supprimer les espaces autour des champs de formulaire */
+textarea {
+  resize: none;
+}
+
+/* Spécifier les valeurs de base pour le focus */
+:focus {
+  outline: none;
+}
