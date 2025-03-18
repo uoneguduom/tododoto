@@ -3,6 +3,5 @@ class task {
         this.name = name;
         this.description = description;
         this.importanceLvl = importanceLvl;
-
     }
 }
